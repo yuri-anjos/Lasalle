@@ -1,6 +1,7 @@
 // Github: yuri-anjos
 // printf para mostrar valores na tela
 // scanf para entrada de dados do usuário
+// %d para entrada de valores inteiros
 // %lf para entrada/saída de pontos flutuantes
 // IF usado para saber se a operação selecinada precisava da 2° entrada
 // Switch Case usado para identificar qual operação matemática realizar
