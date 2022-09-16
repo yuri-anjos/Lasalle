@@ -1,12 +1,12 @@
 // Github: yuri-anjos
 // printf para mostrar valores na tela
-// scanf para entrada de dados do usu·rio
-// %lf para entrada/saÌda de pontos flutuantes e %c para entrada da operaÁ„o
+// scanf para entrada de dados do usu√°rio
+// %lf para entrada/sa√≠da de pontos flutuantes e %c para entrada da opera√ß√£o
 // IF usado para verificar condicoes
-// Switch Case usado para identificar qual operaÁ„o matem·tica realizar
-// No inÌcio do DoWhile criei um booleano como marcador de algum problema, como uma operaÁ„o inv·lida (e no caso da divis„o quando possui divisor 0)
+// Switch Case usado para identificar qual opera√ß√£o matem√°tica realizar
+// No in√≠cio do DoWhile criei um booleano como marcador de algum problema, como uma opera√ß√£o inv√°lida (e no caso da divis√£o quando possui divisor 0)
 
-// J· tenho experiencia com programaÁ„o, o que fiz foi pesquisar a sintaxe da linguagem e a forma de utilizaÁ„o dos tipos de dados
+// J√° tenho experiencia com programa√ß√£o, o que fiz foi pesquisar a sintaxe da linguagem e a forma de utiliza√ß√£o dos tipos de dados
 
 #include <stdio.h>
 #include <math.h>
@@ -18,10 +18,10 @@ int main() {
     double valorDois;
     double result;
     
-    printf("Nome: Yuri FranÁa dos Anjos \n");
-    printf("Curso: An·lise e Desenvolvimento de Sistemas \n");
+    printf("Nome: Yuri Fran√ßa dos Anjos \n");
+    printf("Curso: An√°lise e Desenvolvimento de Sistemas \n");
     printf("Universidade: Lassale \n");
-    printf("MatrÌcula: 202212809 \n");
+    printf("Matr√≠cula: 202212809 \n");
 
     do {
         bool valido = true;
@@ -29,7 +29,7 @@ int main() {
         printf("Valor Um: \n");
         scanf("%lf", &valorUm);
         
-        printf("Qual operaÁ„o deseja realizar? \n");
+        printf("Qual opera√ß√£o deseja realizar? \n");
         scanf(" %c", &comando);
         
         if(comando != 'r') {
@@ -68,7 +68,7 @@ int main() {
             printf("Resultado: %lf \n", result);
             break;
         } else {
-            printf("Esta n„o foi uma operaÁ„o v·lida, tente novamente! \n\n");
+            printf("Esta n√£o foi uma opera√ß√£o v√°lida, tente novamente! \n\n");
         }
         
     } while(1);
